@@ -1,5 +1,11 @@
+
 function corchetes(cadena) {
-    return false;
+    if(cadena==="[]"){
+        return true;
+    }else{
+        return false;
+    }
+    
   }
   
   module.exports = {corchetes};
