@@ -13,5 +13,8 @@ describe("Verificar corchetes", () => {
   it("deberia ingresar una cadena de solo corchetes de cierre y devolver false", () => {
     expect(verificar("]]]]")).toEqual(false);
   });
+  it("deberia ingresar una cadena con la misma cantidad de corchetes abiertos y cerrados  y devolver true", () => {
+    expect(verificar("[[]]")).toEqual(true);
+  });
   
 });
