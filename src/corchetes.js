@@ -15,9 +15,9 @@ function corchetes(cadena) {
             if(cadena[i]==="["){
                 corchetesabiertos++;
             }
-            // if(cadena[i]==="]"){
-            //     corchetescerrados++;
-            // }
+            if(cadena[i]==="]"){
+                corchetescerrados++;
+            }
         }
         if (corchetesabiertos===corchetescerrados){
             return true;
